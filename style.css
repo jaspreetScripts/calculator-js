@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+}
+.container{
+    height:80vh;
+    width:22%;
+    background-color: blueviolet;
+    /* background-color: blanchedalmond; */
+position: absolute;
+top:10%;
+left:30%;
+}
+
+    
+
+#input{
+    text-align: center;
+    max-width:330px;
+    overflow: hidden;
+    height:100px;
+    width:320px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* box-shadow:inset -1px  -1px 5px 5px rgb(19, 16, 16); to show shadow inside */
+    box-shadow: -1px  -1px 5px 5px rgb(255,255,255);
+    margin-bottom: 15px;
+}
+
+button{
+    border:none;
+    outline:none;
+    margin:10px 10px;
+    /* background: transparent; */
+    font-size: 1.5rem;
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    box-shadow: -1px  -1px 5px 5px rgb(255,255,255);
+}
